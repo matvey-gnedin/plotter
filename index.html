@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/logoTab.png" type="image/png">
+  <!-- swiper -->
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <title>Плоттеры</title> 
+</head>
+<body class="body activeLoader">
+  <div class="loaderMain">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  </div>
+  <script>
+    window.onload = function(){
+      document.querySelector('.body').classList.remove('activeLoader')
+      document.querySelector('.loaderMain').classList.add('loaderHidden')
+    }
+  </script>
+
+  <header class="header">
+    <div class="header-container">
+      <div class="header-container__wrapper">
+        <img src="./img/logo.png" alt="">
+        <ul>
+          <li>пункт1</li>
+          <li>пункт2</li>
+          <li>пункт3</li>
+          <li>пункт4</li>
+          <li>пункт5</li>
+          <li>пункт6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="header-line"></div>
+  </header>
+  <main class="main">
+    <section class="main__welcome" id="welcome">
+      <div class="welcome__container">
+        <div class="welcome__content">
+          <h2>Начни зарабатывать 300% на гидрогелевых плёнках с помощью плоттера Gera Wolf</h2>
+          <div class="welcome__content_block">
+            <div class="welcome__button_wrapper">
+              <button>Оставить заявку</button>
+            </div>
+            <img src="./img/welcome/plotter.png" alt="">
+          </div>
+          
+        </div>
+        <ul class="welcome__container_plashki">
+          <li>
+            <h3>1000+</h3>
+            <p>Успешных точек</p>
+          </li>
+          <li>
+            <h3>2000+</h3>
+            <p>Купленных плоттеров</p>
+          </li>
+          <li>
+            <h3>1500+</h3>
+            <p>Довольных клиентов</p>
+          </li>
+          <li>
+            <h3>10000+</h3>
+            <p>Вырезанных плёнок</p>
+          </li>
+        </ul>
+      </div>
+      <video preload="auto" id="full-screen__video" class="full-screen__video" playsinline muted loop>
+        <source src="./videos/background.mp4" type="video/mp4">
+        <source src="./videos/background.webm" type="video/webm">
+        <source src="./videos/background.ogg" type="video/ogg">
+      </video>
+      <script>
+        document.getElementById('full-screen__video').play();
+      </script>
+    </section>
+    <section class="main__benefits">
+      <div class="main__benefits_container">
+        <ul>
+          <li>
+            <div class="benefits__img-wrapper">
+              <img src="./img/benefits/krest.png" alt="">
+            </div>
+            <p>Хватит замораживать десятки тысяч рублей в склад стекол, которые каждый день обесцениваются</p>
+          </li>
+          <li>
+            <div class="benefits__img-wrapper">
+              <img src="./img/benefits/fingerDown.png" alt="">
+            </div>
+            <p>Хватит получать десятки отказов от клиентов из за того, что у вас нет в наличии нужного стекла</p>
+          </li>
+          <li>
+            <div class="benefits__img-wrapper">
+              <img src="./img/benefits/dollar.png" alt="">
+            </div>
+            <p>Начни зарабатывать от 300% на бронированных гидрогелевых плёнках</p>
+          </li>
+          <li>
+            <div class="benefits__img-wrapper">
+              <img src="./img/benefits/grafik.png" alt="">
+            </div>
+            <p>Увеличь свою прибыль на +37% за счет базы более 10000+ моделей смартфонов в плоттере Alpha Skin Shell S</p>
+          </li>
+        </ul>
+        <div class="video__container">
+          <iframe 
+            class="iframe"
+            id="ifr"
+            src="https://www.youtube.com/embed/k9lJbeqoA3E?showinfo=0color=white&iv_load_policy=3&disablekb=0&fs=1&modestbranding=1&showinfo=0&controls=1&rel=0&"  
+            frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="main__benefits_button">
+        <button>Свяжитесь с нами</button>
+      </div>
+    </section>
+    <secion class="main__plotter">
+      <div class="plotter-container">
+        <h2>Преимущества плоттера Alpha Skin</h2>
+        <img src="./img/plotter/plotter.png" alt="" class="plotter-img">
+        <ul class="plotter__benefits">
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>30 секунд на изготовление защиты</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>Сервис техническое поддержки 24/7</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>15 000+ шаблонов различных девайсов</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>Обновление шаблонов в реальном времени</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>15 минут на добавление нового/корректировку старого шаблона</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>365 дней гарантии на плоттер</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>Вырезает на любую часть смартфона, а так же 360 градусов</p>
+          </li>
+          <li>
+            <img src="./img/plotter/checkMark.png" alt="">
+            <p>Статистика по всей работе плоттера</p>
+          </li>
+        </ul>
+        <h2>Вырезает плёнку под любое устройство</h2>
+        <ul class="plotter__devices">
+          <li>
+            <img src="./img/plotter/devices/macbook.jpg" alt="">
+            <h4>Ноутбук</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/telephoneFront.png" alt="">
+            <h4>Плёнка для экрана</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/telephoneBack.png" alt="">
+            <h4>Плёнка для задней крышки</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/ipad.png" alt="">
+            <h4>Планшет</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/airpods.png" alt="">
+            <h4>Наушники</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/iwatch.png" alt="">
+            <h4>Часы</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/camera.png" alt="">
+            <h4>Плёнка для линз</h4>
+          </li>
+          <li>
+            <img src="./img/plotter/devices/photoapparat.png" alt="">
+            <h4>Линза камеры</h4>
+          </li>
+        </ul>
+        <h2>Вырезает плёнку под любую фирму</h2>
+        <ul class="plotter__brands">
+          <li>
+            <img src="./img/plotter/brands/apple.png" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/xiaomi.png" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/sumsung.png" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/huawei.svg" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/honor.jpg" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/apple.svg" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/apple.svg" alt="">
+          </li>
+          <li>
+            <img src="./img/plotter/brands/apple.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </secion>
+  </main>
+  <script src="./js/scroll.js"></script>
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
